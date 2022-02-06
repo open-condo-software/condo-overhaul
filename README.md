@@ -1,6 +1,6 @@
 # Condo-overhaul
 
-All information is fetched from zipped csv files from reformagkh.ru 
+All information is taken from archived CSV files from the reformagh.ru website
 
 ## Getting started
 
