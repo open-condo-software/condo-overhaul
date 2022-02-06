@@ -1,0 +1,18 @@
+version: '3'
+services:
+  postgresdb_info:
+    image: postgres:13.2
+    ports:
+      - "127.0.0.1:5470:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: condoinfo
+      POSTGRES_PORT: 5470
+    networks:
+      - app-network
+    volumes:
+      - "./download:/tmp/download"
+networks:
+  app-network:
+    driver: bridge

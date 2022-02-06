@@ -1,0 +1,35 @@
+{
+  "name": "condo-overhaul",
+  "version": "1.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "create-tables": "node createTables.js",
+    "sync-data": "node syncDatabase.js",
+    "start-server": "node startServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Dementyev_Andrey/halava_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Dementyev_Andrey/halava_api/issues"
+  },
+  "homepage": "https://gitlab.com/Dementyev_Andrey/halava_api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "download": "^8.0.0",
+    "express": "^4.17.2",
+    "nodejs-file-downloader": "^4.9.2",
+    "pg": "^8.7.1",
+    "pino": "^7.6.5",
+    "unzipper": "^0.10.11"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-standard": "^1.0.2",
+    "nodemon": "^2.0.15"
+  }
+}
