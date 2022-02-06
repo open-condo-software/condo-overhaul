@@ -10,14 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/Dementyev_Andrey/halava_api.git"
+    "url": "https://github.com/dkoviazin/condo-overhaul.git"
   },
-  "author": "",
+  "author": "Dementyev Andrey, Dmitry Koviazin",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/Dementyev_Andrey/halava_api/issues"
-  },
-  "homepage": "https://gitlab.com/Dementyev_Andrey/halava_api#readme",
+  "homepage": "https://github.com/dkoviazin/condo-overhaul.git#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
     "download": "^8.0.0",
