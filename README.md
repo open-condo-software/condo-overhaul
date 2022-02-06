@@ -16,6 +16,8 @@ All information is taken from archived CSV files from the reformagh.ru website
 
 ```
 wget http://localhost:7000/api/organization/6658320850
+
+[wget http://condo-overhaul.dev.jet.team/api/organization/6658320850]
 ```
 
 
