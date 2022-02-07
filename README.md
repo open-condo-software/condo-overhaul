@@ -1,6 +1,6 @@
 # Condo-overhaul
 
-All information is taken from archived CSV files from the reformagh.ru website
+All information is taken from archived CSV files from the reformagkh.ru website
 
 ## Getting started
 
