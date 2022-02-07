@@ -13,16 +13,20 @@ app.get('/api/organization/:inn', async (req, res, next) => {
     res.json(result)
 })
 
+app.get('/api/property/:fiasId', async (req, res, next) => {
+    const result = await sqlController.getPropertyByFiasId(req.params['fiasId'])
+    res.json(result)
+})
 
-app.set('port', PORT)
 
 const startServer = async () => {
     await sqlController.connect()
-    app.listen(app.get('port'))
+    app.set('port', PORT)
+    app.listen(PORT)
 }
 
 startServer().then(result => {
-    baseLogger.info('server started', { PORT })
+    baseLogger.info({ message: 'server started', PORT }, )
 }).catch(error => {
-    baseLogger.error('server start failed', { PORT, error })
+    baseLogger.error({ message: 'server start failed', PORT, error })
 })
