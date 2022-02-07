@@ -15,8 +15,8 @@ All information is taken from archived CSV files from the reformagh.ru website
 # API usage
 
 ```bash
-wget http://localhost:7000/api/organization/6658320850
-wget http://localhost:7000/api/property/c2341fbb-23c3-40ec-a946-a4e67a9f13a2
+/api/organization/[inn]
+/api/property/[fias-id]
 ```
 
 Live demo
